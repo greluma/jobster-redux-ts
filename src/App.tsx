@@ -1,5 +1,12 @@
+import styled from "styled-components";
+import { Landing } from "./pages";
+
 function App() {
-  return <h1>Hello Jobster</h1>;
+  return (
+    <>
+      <Landing />
+    </>
+  );
 }
 
 export default App;
