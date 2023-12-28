@@ -13,7 +13,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <ToastContainer position="top-center" autoClose={500} />
+        <ToastContainer position="top-center" autoClose={2000} />
       </BrowserRouter>
     </>
   );
